@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fita3.adonisgonzalez.timetracker.AddTaskDur"
+    tools:showIn="@layout/activity_add_task_dur">
+
+    <EditText
+        android:id="@+id/nameDT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Nom tasca"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/descDT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameDT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Descripció"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonDT"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timePicker2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="AFEGIR"
+        android:textColor="@android:color/background_light" />
+
+    <TimePicker
+        android:id="@+id/timePicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descDT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:headerBackground="@color/colorPrimary"
+        android:timePickerMode="spinner"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimeTracker</string>
+    <string name="tab_text_1">Proyectos</string>
+    <string name="tab_text_2">Informes</string>
+    <string name="tab_text_3">PruebaTab</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_add">Añadir Actividad</string>
+    <string name="createPrompt">Seleccionar tipo</string>
+    <string name="section_format">Hola mundo</string>
+</resources>

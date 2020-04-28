@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">TimeTracker</string>
+    <string name="tab_text_1">Projects</string>
+    <string name="tab_text_2">Reports</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_add">AddActivity</string>
+
+    <string name="createPrompt">Select</string>
+
+    <string name="settings"></string>
+    <string name="share"></string>
+    <string name="help"></string>
+
+    <string-array name="createOpt">
+        <item>Projecte</item>
+        <item>Tasca</item>
+    </string-array>
+
+    <string-array name="createStyle">
+        <item>Normal</item>
+        <item>Limitada</item>
+        <item>Programada</item>
+    </string-array>
+    <string name="title_activity_add_task">Afegir Tasca Normal</string>
+    <string name="title_activity_add_task_pro">Afegir Tasca Programada</string>
+    <string name="title_activity_add_task_pro_time">Tria la duració</string>
+    <string name="title_activity_add_task_dur">Afegir Tasca</string>
+    <string name="title_activity_create_report">Crear Informe</string>
+    <string name="title_activity_info">Dades Activitat</string>
+
+    <string name="content_open_popup">Open Popup Menu</string>
+
+
+        <string-array name="planets_array">
+            <item>Mercury</item>
+            <item>Venus</item>
+            <item>Earth</item>
+            <item>Mars</item>
+            <item>Jupiter</item>
+            <item>Saturn</item>
+            <item>Uranus</item>
+            <item>Neptune</item>
+        </string-array>
+
+
+</resources>
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fita3.adonisgonzalez.timetracker.InfoActivity"
+    tools:showIn="@layout/activity_info">
+
+    <TextView
+        android:id="@+id/fiT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fiR"
+        android:layout_below="@+id/iniciR"
+        android:layout_marginTop="19dp"
+        android:text="Data fi"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/iniciT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/descT"
+        android:layout_below="@+id/descR"
+        android:layout_marginTop="20dp"
+        android:text="Data inici"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/duradaT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/iniciR"
+        android:layout_below="@+id/fiR"
+        android:layout_marginTop="26dp"
+        android:text="Durada"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/descT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nomR"
+        android:layout_below="@+id/nomR"
+        android:layout_marginTop="22dp"
+        android:text="Descripció"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nomT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Nom activitat"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nomR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nomT"
+        android:layout_below="@+id/nomT"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/descR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/iniciT"
+        android:layout_below="@+id/descT"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/duradaR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/duradaT"
+        android:layout_below="@+id/duradaT"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/iniciR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/iniciT"
+        android:layout_below="@+id/iniciT"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/fiR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/duradaR"
+        android:layout_below="@+id/fiT"
+        android:text="TextView" />
+
+</RelativeLayout>

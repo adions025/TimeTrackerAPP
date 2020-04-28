@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fita3.adonisgonzalez.timetracker.AddTaskPro"
+    tools:showIn="@layout/activity_add_task_pro">
+
+    <Button
+        android:id="@+id/buttonPROT"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Següent"
+        android:textColor="@android:color/background_light" />
+
+    <TimePicker
+        android:id="@+id/simpltimePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:headerBackground="@color/colorPrimary"
+        android:timePickerMode="spinner" />
+
+    <TimePicker
+        android:id="@+id/simpltimePicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/simpltimePicker1"
+        android:layout_alignTop="@+id/editText"
+        android:layout_marginTop="30dp"
+        android:headerBackground="@color/colorPrimary"
+        android:timePickerMode="spinner" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Fins les:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contextClickable="false"
+        android:ems="10"
+        android:freezesText="true"
+        android:inputType="textPersonName"
+        android:text="Des de:"
+        android:textStyle="bold" />
+
+</RelativeLayout>

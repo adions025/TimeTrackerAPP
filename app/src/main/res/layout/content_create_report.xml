@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fita3.adonisgonzalez.timetracker.CreateReport"
+    tools:showIn="@layout/activity_create_report">
+
+    <EditText
+        android:id="@+id/nomProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/initProject"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Report Name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/initProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/endProject"
+        android:layout_below="@+id/nomProject"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Start time (hh/mm/ss)"
+        android:inputType="time"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/endProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/initProject"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="End time (hh/mm/ss)"
+        android:inputType="time"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/startDatProj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/endProject"
+        android:layout_below="@+id/endProject"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Initial Date (d/m/a)"
+        android:inputType="date"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/endDateProj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startDatProj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="End Date(d/m/a)"
+        android:inputType="date"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/createRep"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="ADD"
+        android:textColor="@android:color/background_light"
+        tools:text="ADD" />
+
+    <Spinner
+        android:id="@+id/spinnerReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/endDateProj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+</RelativeLayout>
